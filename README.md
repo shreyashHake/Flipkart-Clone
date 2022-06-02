@@ -1,5 +1,5 @@
 # Flipkart-Clone
-> This project is clone of E-commerce platform FlipKart's🛒 frontend <br>
+> This project is clone of E-commerce platform FlipKart's🛒 Home Page <br>
 <hr>
 
 ### Languages and Tools:
@@ -15,3 +15,7 @@
 
 ### Reference
 > https://www.youtube.com/watch?v=Edsxf_NBFrw
+
+### Future Improvements 
+> * Create actual clone of [FlipKart](https://flipkart.com/) which is able to sell, wishlist, order, etc. <br>
+> * Improve Responsiveness.
