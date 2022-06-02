@@ -8,11 +8,14 @@
 }
 
 header {
+    position: sticky;
+    top: 0px;
     background-color: #2874f0;
 }
 
 nav {
     display: flex;
+    width: 97vw;
 }
 
 .logo {
@@ -36,25 +39,22 @@ nav {
 }
 
 .text {
-    height: 25;
-    width: 337px;
+    height: 1vh;
+    width: 25vw;
     padding: 10px;
     border-radius: 5px;
     border: 2px solid white;
 }
 
 .login button {
-    font-family: 'Tiro Devanagari Marathi', serif;
+    font-family: Roboto, Arial, sans-serif;
 }
 
-nav {
-    width: 100vw;
-}
 nav ul {
     height: 50px;
     display: flex;
-    justify-content:first baseline;
-    align-items:center;
+    justify-content: first baseline;
+    align-items: center;
     margin: 0 0 0 6vw;
 }
 
@@ -66,7 +66,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: white;
-    font-family: 'Tiro Devanagari Marathi', serif;
+    font-family: Roboto, Arial, sans-serif;
     font-weight: 550;
     font-size: 17px;
 }
@@ -77,24 +77,34 @@ nav ul li a:hover {
 
 .container {
     display: flex;
+    margin-top: 5px;
     justify-content: center;
     flex-direction: column;
-    height: calc(100vh - 50px - 7vh);
+    /* height: calc(100vh - 50px - 7vh); */
 }
 
 .slider {
     width: 80vw;
     margin: 12px auto;
-
+    overflow: hidden;
     /* height: 320px; */
     /* padding: 10px auto 10px auto; */
     /* border: gray 2px solid; */
 }
-
 .card {
     width: 91vw;
-    margin: auto;
     font-family: 'Roboto Condensed', sans-serif;
+    margin: 25px auto;
+    border: ridge;
+    overflow: hidden;
+}
+
+.card1 {
+    width: 91vw;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: -37px auto auto auto;
+    border: ridge;
+    overflow: hidden
 }
 
 .cards {
@@ -104,15 +114,18 @@ nav ul li a:hover {
 }
 
 .card-item {
-    width: 11vw;
+    width: 160px;
     display: flex;
+    margin: 12px 0 30px 0;
     justify-content: center;
     flex-direction: column;
     margin: 0 16px;
+    cursor: pointer;
 }
 
 .lines {
-    margin-top: 7px;
+    margin: 9px;
+    cursor: pointer;
 }
 
 footer {
@@ -122,5 +135,5 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Tiro Devanagari Marathi', serif;
+    font-family: Roboto, Arial, sans-serif;
 }
